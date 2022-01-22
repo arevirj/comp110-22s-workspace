@@ -31,8 +31,10 @@ if word_ans[4] == chr_ans:
     print(chr_ans + " found at index 4 ")
     match: int = match + 1
 
-if match > 0:
+if match == 1:
     print(str(match) + " instance of " + chr_ans + " found in " + word_ans)
-else:
-    print("No instances of " + chr_ans + " found in heels")
+if match > 1:
+    print(str(match) + " instances of " + chr_ans + " found in " + word_ans)
+if match == 0:
+    print("No instances of " + chr_ans + " found in " + word_ans)
                                     
