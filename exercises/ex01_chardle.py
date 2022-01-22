@@ -17,19 +17,19 @@ print("Searching for " + chr_ans + " in " + word_ans)
 
 if word_ans[0] == chr_ans:
     print(chr_ans + " found at index 0 ")
-    match: int = match + 1
+    match = match + 1
 if word_ans[1] == chr_ans:
     print(chr_ans + " found at index 1 ")
-    match: int = match + 1
+    match = match + 1
 if word_ans[2] == chr_ans:
     print(chr_ans + " found at index 2 ")
-    match: int = match + 1
+    match = match + 1
 if word_ans[3] == chr_ans:
     print(chr_ans + " found at index 3 ")
-    match: int = match + 1
+    match = match + 1
 if word_ans[4] == chr_ans:
     print(chr_ans + " found at index 4 ")
-    match: int = match + 1
+    match = match + 1
 
 if match == 1:
     print(str(match) + " instance of " + chr_ans + " found in " + word_ans)
